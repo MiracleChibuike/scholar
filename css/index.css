@@ -68,6 +68,9 @@ form label{
     background: transparent;
     color: var(--dark-primry);
 }
+#DOB, #Appointment{
+    width: 800px;
+}
 #TeacherName:hover, #TSCNumber:hover, #TaechersSatation:hover, 
 #TaechersDesignate:hover, #DOB:hover, #Appointment:hover, #TeachersPasword:hover{
     cursor: grab;
@@ -121,6 +124,10 @@ form label{
         bottom: 30px;
         width: 50px;
   }
+  #DOB,
+  #Appointment {
+      width: 250px;
+  }
 }
 
 /* Media querry for Ipads */
@@ -143,4 +150,8 @@ form label{
                     bottom: 30px;
                     width: 50px;
                 }
+                                  #DOB,
+                                  #Appointment {
+                                      width: 400px;
+                                  }
 }
